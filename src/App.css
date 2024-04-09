@@ -215,6 +215,9 @@ ul li {
 
 .company-logo-in-experience-container{
   text-align: center;
+  position: sticky;
+  top: 5rem;
+  z-index: 5;
 }
 
 .company-logo, .company-logo-in-experience {
