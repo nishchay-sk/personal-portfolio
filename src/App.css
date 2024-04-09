@@ -96,15 +96,22 @@ html {
 #experience {
   width: 100vw;
   min-height: 100vh;
+  padding-bottom: 30px;
 }
 
-#experience #heading, #skills #heading, #companies-worked-so-far #heading, #contact #heading{
+#experience #heading, #skills #heading, #companies-worked-so-far #heading, #contact #heading, #heading-closed{
   padding-top: 5rem;
   color: #aeaeae;
   font-weight: bold;
   font-size: 25px;
-  text-align: center;
+  text-align: left;
+  padding-left: 4rem;
 }
+
+#heading-closed{
+  padding-top: 30px;
+}
+
 #experience #heading {
   padding-bottom: 30px;
 }
@@ -114,7 +121,7 @@ html {
   display: grid;
   grid-template-columns: 50% 5px 50%;
   margin: auto;
-  padding-bottom: 20px;
+  
 }
 
 .path {
@@ -270,7 +277,7 @@ ul li {
 
 #skills {
   background: #111111;
-  padding-bottom: 5rem;
+  padding-bottom: 30px;
 }
 
 /* END */
@@ -280,14 +287,13 @@ ul li {
 /* Start */
 
 #contact {
-  padding-bottom: 5rem;
+  padding: 50px;
 }
 
 #contact-list {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 40px;
   gap: 20px;
 }
 

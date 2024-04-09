@@ -4,8 +4,9 @@ import IBM from "../assets/IBM.svg"
 const Experience = () => {
     return (
         <div id="experience">
-            <div id="heading">{"<Experience />"}</div>
+            <div id="heading">{"<Experience>"}</div>
             <ExperienceTiles />
+            <div id="heading-closed">{"</Experience>"}</div>
         </div>
     )
 }
