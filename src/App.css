@@ -105,13 +105,16 @@ html {
   font-size: 25px;
   text-align: center;
 }
+#experience #heading {
+  padding-bottom: 30px;
+}
 
 #experience-tiles {
   width: 95vw;
   display: grid;
   grid-template-columns: 50% 5px 50%;
   margin: auto;
-  margin-top: 50px;
+  padding-bottom: 20px;
 }
 
 .path {
@@ -203,11 +206,19 @@ ul li {
 /* CompaniesWorkedSoFar */
 /* Start */
 
-.company-logo {
+.company-logo-in-experience-container{
+  text-align: center;
+}
+
+.company-logo, .company-logo-in-experience {
   width: 60px;
   height: 60px;
-  background: #161616;
+  background: #005927;
   padding: 10px;
+}
+
+.company-logo-in-experience{
+  mix-blend-mode: screen;
 }
 
 .company-logo img {
