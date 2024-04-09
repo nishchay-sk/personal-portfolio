@@ -132,7 +132,9 @@ const Duration = ({ exp, left }) => {
 const Content = ({ exp }) => {
     return (
         <div className="experience-content">
+            <div className="company-low-res">{exp.company}</div>
             <div className="project-name">{`<${exp.projectName} />`} <span className="role"><i>{`(${exp.role})`}</i></span></div>
+            <div className="duration-low-res">{`(${exp.startDate} - ${exp.endDate})`}</div>
             <hr />
             <ul>
                 {

@@ -105,7 +105,8 @@ html {
   font-weight: bold;
   font-size: 25px;
   text-align: left;
-  padding-left: 4rem;
+  width: 95vw;
+  margin: auto;
 }
 
 #heading-closed{
@@ -148,7 +149,6 @@ html {
   justify-content: left;
   padding: 10%;
   color: #005927;
-  font-weight: bold;
 }
 
 .duration-left {
@@ -305,3 +305,79 @@ ul li {
 
 
 /* END */
+
+.company-low-res {
+  font-size: 13px !important;
+  line-height: 30px;
+  display: none;
+}
+
+.duration-low-res {
+  font-size: 13px;
+  line-height: 30px;
+  display: none;
+  text-align: right;
+}
+
+
+@media only screen and (max-width: 1000px) {
+  #intro *{ 
+    font-size: 0.8em !important;
+  }
+  #hello {
+    font-size: 0.4em !important;
+  }
+  #header #left-section a{
+    font-size: 18px;
+  }
+  #header #right-section a{
+    font-size: 13px;
+  }
+  #right-section a:not(:last-child) {
+    display: none;
+  }
+  
+  #heading, #heading-closed {
+    font-size: 15px !important;
+    padding-left: 2rem !important;
+  }
+
+  .skill-logo {
+    font-size: 0.7rem;
+    width: 50px;
+    height: 50px;
+  }
+
+
+  .company-logo-in-experience-container {
+    text-align: left;
+    padding-left: 2rem;
+    display: none;
+  }
+  .company-logo, .company-logo-in-experience {
+    width: 50px;
+    height: 50px;
+    padding: 0px;
+  }
+
+  #experience-tiles {
+    grid-template-columns: 100%;
+  }
+
+  #experience-tiles > div.path, #experience-tiles > div.duration {
+    display: none;
+  }
+
+  #experience-tiles ul {
+    font-size: 12px;
+  }
+
+  #experience-tiles .project-name {
+    font-size: 13px;
+    line-height: 20px;
+  }
+
+  .company-low-res, .duration-low-res {
+    display: block;
+  }
+}
