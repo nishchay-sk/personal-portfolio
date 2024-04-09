@@ -4,7 +4,7 @@ const Header = () => {
     return (
         <div id="header">
             <div id="left-section">
-                <a href="/" id="logo">{"<NS />"}</a>
+                <a href="/personal-portfolio" id="logo">{"<NS />"}</a>
             </div>
             <div id="right-section">
                 <a href="#experience">{"<Experience />"}</a>
