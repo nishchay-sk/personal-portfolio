@@ -264,7 +264,7 @@ ul li {
   flex-wrap: wrap;
 }
 
-.skill-logo {
+.skill-container {
     width: 100px;
     height: 100px;
     background: #161616;
@@ -281,6 +281,11 @@ ul li {
 #skills {
   background: #111111;
   padding-bottom: 30px;
+}
+
+.skill-logo {
+  width: 80px;
+  height: 80px;
 }
 
 /* END */
@@ -345,7 +350,7 @@ ul li {
     padding-top: 2rem !important;
   }
 
-  .skill-logo {
+  .skill-container {
     font-size: 0.7rem;
     width: 50px;
     height: 50px;
