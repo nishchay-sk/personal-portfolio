@@ -289,6 +289,11 @@ ul li {
 .skill-logo {
   width: 70px;
   height: 70px;
+  opacity: 0.6;
+}
+
+.skill-logo:hover {
+  opacity: 1;
 }
 
 /* END */
