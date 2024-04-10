@@ -9,6 +9,7 @@ import Docker from "../assets/docker.svg"
 import Kubernetes from "../assets/kubernetes.svg"
 import MySQL from "../assets/mysql.svg"
 import MongoDB from "../assets/mongodb.svg"
+import TravisCI from "../assets/travisci.svg"
 
 const Skills = () => {
 
@@ -54,6 +55,10 @@ const Skills = () => {
             logo: MongoDB,
         },
         {
+            skill: "Travis CI",
+            logo: TravisCI,
+        },
+        {
             skill: "Microservices",
         },
         {
@@ -61,9 +66,6 @@ const Skills = () => {
         },
         {
             skill: "Algorithms"
-        },
-        {
-            skill: "CI/CD"
         },
         
     ]
