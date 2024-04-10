@@ -38,7 +38,7 @@ html {
 }
 
 #role {
-  color: #005927;
+  color: #593700;
 }
 
 #header{
@@ -83,7 +83,7 @@ html {
 }
 
 #right-section a:hover {
-  color: #005927;
+  color: #593700;
   font-weight: bold;
   /* transform: scale(1.05, 1.05); */
   /* background: #1a1a1a; */
@@ -101,7 +101,7 @@ html {
 
 #experience #heading, #skills #heading, #companies-worked-so-far #heading, #contact #heading, #heading-closed{
   padding-top: 5rem;
-  color: #005927;
+  color: #593700;
   font-weight: bold;
   font-size: 23px;
   text-align: left;
@@ -123,10 +123,10 @@ html {
   grid-template-columns: 50% 4px 50%;
   margin: auto;
   
-}
+} 
 
 .path {
-  background: #005927;
+  background: #593700;
   position: relative;
   display: flex;
   align-items: center;
@@ -148,7 +148,7 @@ html {
   align-items: center;
   justify-content: left;
   padding: 10%;
-  color: #005927;
+  color: #593700;
 }
 
 .duration-left {
@@ -159,7 +159,7 @@ html {
   position: absolute;
   width: 25px;
   height: 25px;
-  background: #005927;
+  background: #593700;
   border-radius: 100%;
   display: flex;
   align-items: center;
@@ -223,7 +223,7 @@ ul li {
 .company-logo, .company-logo-in-experience {
   width: 60px;
   height: 60px;
-  background: #005927;
+  background: #593700;
   padding: 4px;
 }
 
