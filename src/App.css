@@ -41,6 +41,15 @@ html {
   color: #593700;
 }
 
+#inform-to-scroll-down {
+    position: absolute;
+    font-size: 1rem;
+    bottom: 50px;
+    text-align: center;
+    width: 100%;
+    left: 0;
+}
+
 #header{
   position: fixed;
   top: 0px;
@@ -136,10 +145,16 @@ html {
 .experience-content {
   margin: 20px;
   color: #aeaeae;
-  background: #161616;
+  background: #0f0f0f;
   border-radius: 10px;
   padding: 20px;
   /* min-height: 100px; */
+  /* background: #0f0f0f;
+  box-shadow:  5px 5px 10px #0a0a0a,
+           -5px -5px 10px #141414;
+           background: #0f0f0f;
+box-shadow: inset 5px 5px 10px #0a0a0a,
+            inset -5px -5px 10px #141414 */
 }
 
 .duration {
@@ -149,6 +164,8 @@ html {
   justify-content: left;
   padding: 10%;
   color: #593700;
+  border-radius: 0px;
+
 }
 
 .duration-left {
@@ -229,6 +246,8 @@ ul li {
 
 .company-logo-in-experience{
   mix-blend-mode: screen;
+  /* box-shadow: inset 5px 5px 10px #0a0a0a,
+  inset -5px -5px 10px #141414  */
 }
 
 .company-logo img {
@@ -277,12 +296,14 @@ ul li {
     font-weight: bold;
     font-size: 0.8rem;
     flex-direction: column;
-    gap: 10px;
-    
+    gap: 10px;  
+    background: #0f0f0f;
+    box-shadow:  5px 5px 10px #0a0a0a,
+             -5px -5px 10px #141414;
 }
 
 #skills {
-  background: #111111;
+  background: #0f0f0f;
   padding-bottom: 30px;
 }
 
@@ -410,4 +431,19 @@ ul li {
   .contact-logo a div {
     display: none;
   }
+
+  .experience-content {
+    background: #0f0f0f;
+    box-shadow:  5px 5px 10px #0a0a0a,
+             -5px -5px 10px #141414;
+  }
+
+  #heading-closed {
+    display: none;
+  }
+
+  #heading {
+    text-align: center !important;
+  }
+
 }

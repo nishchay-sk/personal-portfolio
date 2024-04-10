@@ -7,6 +7,7 @@ const IntroPage = () => {
             <div id="hello">Hello, it's me</div>
             <div id="name-container"><span id="name">Nishchay SK,</span></div>
             <TypingComponent />
+            {/* <div id="inform-to-scroll-down">Scroll down for more</div> */}
         </div>
     </div>
 )
