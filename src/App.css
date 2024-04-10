@@ -101,9 +101,9 @@ html {
 
 #experience #heading, #skills #heading, #companies-worked-so-far #heading, #contact #heading, #heading-closed{
   padding-top: 5rem;
-  color: #aeaeae;
+  color: #005927;
   font-weight: bold;
-  font-size: 25px;
+  font-size: 23px;
   text-align: left;
   width: 95vw;
   margin: auto;
@@ -265,8 +265,8 @@ ul li {
 }
 
 .skill-container {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     background: #161616;
     padding: 30px;
     border-radius: 10px;
@@ -275,7 +275,7 @@ ul li {
     justify-content: center;
     align-items: center;
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 0.8rem;
     flex-direction: column;
     gap: 10px;
     
@@ -287,8 +287,8 @@ ul li {
 }
 
 .skill-logo {
-  width: 80px;
-  height: 80px;
+  width: 70px;
+  height: 70px;
 }
 
 /* END */
