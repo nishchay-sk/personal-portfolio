@@ -276,6 +276,9 @@ ul li {
     align-items: center;
     font-weight: bold;
     font-size: 1rem;
+    flex-direction: column;
+    gap: 10px;
+    
 }
 
 #skills {
@@ -309,6 +312,15 @@ ul li {
   width: 30px;
   height: 30px;
   cursor: pointer;
+}
+
+.contact-logo a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #aeaeae;
+  text-decoration: none;
+  font-size: 0.8rem;
 }
 
 
@@ -354,6 +366,7 @@ ul li {
     font-size: 0.7rem;
     width: 50px;
     height: 50px;
+    padding: 40px;
   }
 
 
@@ -387,5 +400,9 @@ ul li {
 
   .company-low-res, .duration-low-res {
     display: block;
+  }
+
+  .contact-logo a div {
+    display: none;
   }
 }

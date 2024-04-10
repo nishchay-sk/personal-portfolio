@@ -9,12 +9,12 @@ const Contact = () => {
         {
             contact: "linkedin",
             logo: LinkedIn,
-            src: "https://www.linkedin.com/in/nishchaysk/"
+            src: "https://www.linkedin.com/in/nishchaysk"
         },
         {
             contact: "instagram",
             logo: Instagram,
-            src: "https://www.instagram.com/nishchay_shetty/"
+            src: "https://www.instagram.com/nishchay_shetty"
         },
         {
             contact: "gmail",
@@ -31,7 +31,10 @@ const Contact = () => {
                 contacts.map((contact) => {
                     return (
                         <div className="contact-logo">
-                            <a href={contact.src} target="_blank" rel="noreferrer"><img src={contact.logo} alt={contact.contact} title={contact.src} /></a>
+                            <a href={contact.src} target="_blank" rel="noreferrer">
+                                <img src={contact.logo} alt={contact.contact} title={contact.src} />
+                                <div>{contact.src}</div>
+                            </a>
                         </div>
                     )
                 })

@@ -16,7 +16,7 @@ const TypingComponent  = () => {
 
     const [dataToDisplay, setDataToDisplay] = useState("");
 
-    const dataArr = ["<Full Stack Developer />", "<Front End Developer />", "<Back End Developer />", "<Web Developer />"]
+    const dataArr = ["<Full Stack Developer />", "<Front End Developer />", "<Back End Developer />", "<Web Developer />", "<Go Developer />"]
 
     useEffect(() => {
         

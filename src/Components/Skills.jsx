@@ -75,7 +75,10 @@ const Skills = () => {
                 skills.map((skill) => {
                     return (
                         <div className="skill-container">
-                            {skill.logo ? <img className="skill-logo" src={skill.logo} alt={skill.logo} /> : skill.skill}
+                            {skill.logo ? <><
+                                img className="skill-logo" src={skill.logo} alt={skill.logo} />
+                                <div>{skill.skill}</div>
+                            </> : skill.skill}
                         </div>
                     )
                 })
