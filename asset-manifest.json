@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/personal-portfolio/static/css/main.a7cb7dc6.css",
-    "main.js": "/personal-portfolio/static/js/main.11e3cc72.js",
+    "main.js": "/personal-portfolio/static/js/main.08a06f78.js",
     "static/js/453.b21437c2.chunk.js": "/personal-portfolio/static/js/453.b21437c2.chunk.js",
+    "static/media/travisci.svg": "/personal-portfolio/static/media/travisci.40db9815d5b6ed339747e852525e5bf3.svg",
     "static/media/mongodb.svg": "/personal-portfolio/static/media/mongodb.c12a6a37080021497f6d117878c4f327.svg",
     "static/media/mysql.svg": "/personal-portfolio/static/media/mysql.af9c1089a452f0144d0d45ab14d5ccfc.svg",
     "static/media/go.svg": "/personal-portfolio/static/media/go.bba620d13bb4e2c4c0d102d3ef91e93b.svg",
@@ -15,16 +16,17 @@
     "static/media/js.svg": "/personal-portfolio/static/media/js.fef7215d0d3e578f01ad70419d4c4308.svg",
     "static/media/css.svg": "/personal-portfolio/static/media/css.88a9893bf7a52d78f6f1b9ef87a6f0a0.svg",
     "static/media/linkedin-svgrepo-com.svg": "/personal-portfolio/static/media/linkedin-svgrepo-com.13d6a11128c568af71a2fa860e892e09.svg",
+    "static/media/leetcode.svg": "/personal-portfolio/static/media/leetcode.ae301823a43667f36d185113d0ad39a8.svg",
     "static/media/docker.svg": "/personal-portfolio/static/media/docker.afed292d1ba30885c3ef249524b9ee52.svg",
     "index.html": "/personal-portfolio/index.html",
     "static/media/gmail.svg": "/personal-portfolio/static/media/gmail.b7eac4bb552bcad4c3fd9023780f20d0.svg",
     "static/media/html.svg": "/personal-portfolio/static/media/html.bfc29cc664956a7748f9ee78fa82ec7b.svg",
     "main.a7cb7dc6.css.map": "/personal-portfolio/static/css/main.a7cb7dc6.css.map",
-    "main.11e3cc72.js.map": "/personal-portfolio/static/js/main.11e3cc72.js.map",
+    "main.08a06f78.js.map": "/personal-portfolio/static/js/main.08a06f78.js.map",
     "453.b21437c2.chunk.js.map": "/personal-portfolio/static/js/453.b21437c2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a7cb7dc6.css",
-    "static/js/main.11e3cc72.js"
+    "static/js/main.08a06f78.js"
   ]
 }
