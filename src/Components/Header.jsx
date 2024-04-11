@@ -9,6 +9,7 @@ const Header = () => {
             <div id="right-section">
                 <a href="#experience">{"<Experience />"}</a>
                 <a href="#skills">{"<Skills />"}</a>
+                <a href="#certifications">{"<Certifications />"}</a>
                 <a href="#contact">{"<Contact />"}</a>
                 <a href="https://drive.google.com/file/d/1UNXkgG4RrlNHRhiqKtoznxyf4EyzPmUb/view?usp=sharing" target="_blank" download={true} rel="noreferrer" >{"<Resume />"}</a>
             </div>

@@ -6,6 +6,7 @@ import Experience from './Components/Experience';
 import Skills from './Components/Skills';
 import CompaniesWorkedSoFar from './Components/CompaniesWorkedSoFar';
 import Contact from './Components/Contact';
+import Certifications from './Components/Certifications';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Experience />
       {/* <CompaniesWorkedSoFar /> */}
       <Skills />
+      <Certifications />
       <Contact />
     </div>
   );
