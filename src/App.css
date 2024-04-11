@@ -165,7 +165,6 @@ html {
   display: grid;
   grid-template-columns: 50% 4px 50%;
   margin: auto;
-  
 } 
 
 .path {
@@ -513,7 +512,7 @@ ul li {
 #education-list {
   width: 95vw;
   margin: auto;
-  padding: 30px;
+  padding-top: 30px;
   color: #aeaeae;
   display: grid;
   grid-template-columns: 49% 49%;
@@ -530,10 +529,10 @@ ul li {
   line-height: 24px;
   /* box-shadow:  5px 5px 10px #0a0a0a,
   -5px -5px 10px #141414; */
-
   box-shadow: inset 3px 3px 5px #0a0a0a,
   inset -3px -3px 5px #141414;
   flex-direction: column;
+  margin: 0px 20px 20px;
 }
 
 .college-location{
