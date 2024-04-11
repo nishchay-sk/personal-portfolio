@@ -5,7 +5,7 @@ import experience from "../data/experience";
 const Experience = () => {
     return (
         <div id="experience">
-            <div id="heading">{"<Experience>"}</div>
+            <div id="heading">{"<Experience />"}</div>
             <ExperienceTiles />
             <div id="heading-closed">{"</Experience>"}</div>
         </div>

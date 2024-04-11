@@ -120,6 +120,7 @@ html {
 
 #heading-closed{
   padding-top: 30px;
+  display: none;
 }
 
 #experience #heading {

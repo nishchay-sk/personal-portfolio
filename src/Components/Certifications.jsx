@@ -5,7 +5,7 @@ import LinkIcon from "../assets/redirect.svg"
 const Certifications = () => {
     return (
         <div id="certifications">
-            <div id="heading">{"<Certifications>"}</div>
+            <div id="heading">{"<Certifications />"}</div>
                 <div id="certificate-list">{
                     certifications.map((certificate) => {
                         return (
