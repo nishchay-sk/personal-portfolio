@@ -200,18 +200,20 @@ box-shadow: inset 5px 5px 10px #0a0a0a,
 
 .project-name {
   background: none;
-  padding-bottom: 10px;
   font-weight: bold;
+  display: flex;
+  justify-content: space-between;
 }
 
 hr {
   border-color: #aeaeae;
   opacity: 0.5;
+  margin-top: 15px;
 }
 
 .role {
-  font-size: 13px;
-  background: none;
+  font-weight: 100;
+  font-size: 12px;
 }
 
 ul {
@@ -391,6 +393,7 @@ ul li {
 
 .certification .title {
   font-size: 15px;
+  line-height: 23px;
 }
 
 .issued-by {
@@ -426,10 +429,11 @@ ul li {
 }
 
 .duration-low-res {
-  font-size: 13px;
+  font-size: 12px;
   line-height: 30px;
   display: none;
   text-align: right;
+  font-style: italic;
 }
 
 
