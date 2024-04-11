@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import IntroPage from './Components/IntroPage';
 import Header from './Components/Header';
@@ -7,6 +6,7 @@ import Skills from './Components/Skills';
 import CompaniesWorkedSoFar from './Components/CompaniesWorkedSoFar';
 import Contact from './Components/Contact';
 import Certifications from './Components/Certifications';
+import Footer from './Components/Footer';
 
 function App() {
   return (
@@ -18,6 +18,7 @@ function App() {
       <Skills />
       <Certifications />
       <Contact />
+      <Footer />
     </div>
   );
 }
