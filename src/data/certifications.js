@@ -19,7 +19,7 @@ const certifications = [
     },
     {
         imgSrc: "https://university.mongodb.com/course_completion/640a16bd-ca94-4b4f-a946-66133c71c398/printable?format=img",
-        title: "MongoDB Basics - M001, Proof of Completion",
+        title: "MongoDB Basics",
         url: "https://university.mongodb.com/course_completion/640a16bd-ca94-4b4f-a946-66133c71c398?utm_source=copy&utm_medium=social&utm_campaign=university_social_sharing",
         issuedBy: "MongoDB University"
     },
