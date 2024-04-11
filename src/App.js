@@ -7,6 +7,7 @@ import CompaniesWorkedSoFar from './Components/CompaniesWorkedSoFar';
 import Contact from './Components/Contact';
 import Certifications from './Components/Certifications';
 import Footer from './Components/Footer';
+import Education from './Components/Education';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       {/* <CompaniesWorkedSoFar /> */}
       <Skills />
       <Certifications />
+      <Education />
       <Contact />
       <Footer />
     </div>

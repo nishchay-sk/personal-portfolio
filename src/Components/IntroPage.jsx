@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react"
+import contacts from "../data/contacts";
 
 const IntroPage = () => {
     return (
@@ -7,6 +8,7 @@ const IntroPage = () => {
             <div id="hello">Hello, it's me</div>
             <div id="name-container"><span id="name">Nishchay SK,</span></div>
             <TypingComponent />
+            <RightIcons />
             {/* <div id="inform-to-scroll-down">Scroll down for more</div> */}
         </div>
     </div>
@@ -63,6 +65,27 @@ const TypingComponent  = () => {
     return (
         <div>
             <span>A </span><span id="role">{dataToDisplay}</span>
+        </div>
+    )
+}
+
+
+const RightIcons = () => {
+    return (
+        <div id="right-icons">
+            <div>
+            {
+                contacts.map((contact) => {
+                    return (
+                        <div>
+                            <a href={contact.src} target="_blank" rel="noreferrer">
+                                    <img src={contact.logo} alt={contact.contact} title={contact.src} />
+                            </a>
+                        </div>
+                    )
+                })
+            }
+            </div>
         </div>
     )
 }

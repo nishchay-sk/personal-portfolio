@@ -99,6 +99,39 @@ html {
 }
 
 
+#right-icons {
+  position: absolute;
+  right: 0px;
+  height: 100vh;
+  top: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#right-icons img {
+  width: 25px;
+  height: 25px;
+}
+
+#right-icons div {
+  margin: 0px;
+  font-size: 0px;
+  margin: 20px 0px 10px 0px;
+  /* display: flex; */
+  /* flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+}
+
+#right-icons > div {
+  padding: 10px 20px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  box-shadow: inset 3px 3px 5px #0a0a0a,
+  inset -3px -3px 5px #141414;  
+}
+
 /* Experience and Skill Common Part */
 /* Start */
 
@@ -301,8 +334,11 @@ ul li {
     flex-direction: column;
     gap: 10px;  
     background: #0f0f0f;
-    box-shadow:  5px 5px 10px #0a0a0a,
-             -5px -5px 10px #141414;
+    /* box-shadow:  5px 5px 10px #0a0a0a,
+             -5px -5px 10px #141414; */
+
+    box-shadow: inset 3px 3px 5px #0a0a0a,
+    inset -3px -3px 5px #141414;
 }
 
 #skills {
@@ -338,8 +374,8 @@ ul li {
 }
 
 .contact-logo img {
-  width: 30px;
-  height: 30px;
+  width: 25px;
+  height: 25px;
   cursor: pointer;
 }
 
@@ -349,7 +385,7 @@ ul li {
   gap: 10px;
   color: #aeaeae;
   text-decoration: none;
-  font-size: 0.8rem;
+  font-size: 11px;
 }
 
 
@@ -383,17 +419,17 @@ ul li {
   align-items: center;
   padding: 20px;
   background: #0f0f0f;
-  /* box-shadow: inset 5px 5px 10px #0a0a0a,
-          inset -5px -5px 10px #141414; */
-  box-shadow:  5px 5px 10px #0a0a0a,
-  -5px -5px 10px #141414;
+  box-shadow: inset 3px 3px 5px #0a0a0a,
+  inset -3px -3px 5px #141414;
+  /* box-shadow:  5px 5px 10px #0a0a0a,
+  -5px -5px 10px #141414; */
   color: #aeaeae;
   position: relative;
   text-align: center;
 }
 
 .certification .title {
-  font-size: 15px;
+  font-size: 13px;
   line-height: 23px;
 }
 
@@ -417,8 +453,12 @@ ul li {
   right: 0;
   padding: 10px;
   margin: 10px;
-  box-shadow: inset 2px 2px 3px #0a0a0a,
-        inset -2px -2px 3px #141414;
+  border-radius: 5px;
+  /* box-shadow: inset 2px 2px 3px #0a0a0a,
+        inset -2px -2px 3px #141414; */
+
+  box-shadow:  3px 3px 5px #0a0a0a,
+  -3px -3px 5px #141414;
 }
 
 /* End */
@@ -465,6 +505,73 @@ ul li {
 }
 
 /* End */
+
+
+/* Education */
+/* Start */
+
+#education-list {
+  width: 95vw;
+  margin: auto;
+  padding: 30px;
+  color: #aeaeae;
+  display: grid;
+  grid-template-columns: 49% 49%;
+  gap: 20px;
+  justify-content: center;
+}
+
+.education-data {
+  border-radius: 10px;
+  padding: 20px;
+  flex: 1;
+  font-size: 11px;
+  display: flex;
+  line-height: 24px;
+  /* box-shadow:  5px 5px 10px #0a0a0a,
+  -5px -5px 10px #141414; */
+
+  box-shadow: inset 3px 3px 5px #0a0a0a,
+  inset -3px -3px 5px #141414;
+  flex-direction: column;
+}
+
+.college-location{
+  display: flex;
+  justify-content: space-between;
+}
+
+.college {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.course{
+  margin-top: 10px;
+}
+
+.location {
+  font-size: 11px;
+}
+
+.duration-score {
+  display: flex;
+  justify-content: space-between;
+}
+
+.score {
+  /* box-shadow: inset 2px 2px 3px #0a0a0a,
+  inset -2px -2px 3px #141414; */
+
+  box-shadow:  3px 3px 5px #0a0a0a,
+  -3px -3px 5px #141414;
+  padding: 5px 10px;
+  margin: 10px 0px;
+  border-radius: 5px;
+}
+
+/* End */
+
 
 @media only screen and (max-width: 1000px) {
   #intro *{ 
@@ -534,8 +641,8 @@ ul li {
 
   .experience-content {
     background: #0f0f0f;
-    box-shadow:  5px 5px 10px #0a0a0a,
-             -5px -5px 10px #141414;
+    box-shadow: inset 3px 3px 5px #0a0a0a,
+    inset -3px -3px 5px #141414;
   }
 
   #heading-closed {
@@ -544,6 +651,10 @@ ul li {
 
   #heading {
     text-align: center !important;
+  }
+
+  #education-list {
+    grid-template-columns: 100%;
   }
 
 }
