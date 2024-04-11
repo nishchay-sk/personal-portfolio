@@ -532,7 +532,7 @@ ul li {
   box-shadow: inset 3px 3px 5px #0a0a0a,
   inset -3px -3px 5px #141414;
   flex-direction: column;
-  margin: 0px 20px 20px;
+  margin: 0px 0px 0px;
 }
 
 .college-location{
@@ -642,6 +642,7 @@ ul li {
     background: #0f0f0f;
     box-shadow: inset 3px 3px 5px #0a0a0a,
     inset -3px -3px 5px #141414;
+    margin: 0px 0px 20px 0px;
   }
 
   #heading-closed {
