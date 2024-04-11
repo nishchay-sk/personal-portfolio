@@ -4,13 +4,24 @@
 
 }
 
+$background-color: #0f0f0f;
+$text-color: #aeaeae;
+$brown-color: #593700;
+$box-shadow-inset: inset 3px 3px 5px #0a0a0a, inset -3px -3px 5px #141414; 
+$box-shadow-out: 3px 3px 5px #0a0a0a, -3px -3px 5px #141414;
+
 html {
-  background-color: #0f0f0f;
+  background-color: $background-color;
 }
 
+// body {
+//   cursor: url("./assets/code.svg"), auto;
+// }
+
+
 #intro {
-  background-color: #0f0f0f;
-  color: #aeaeae;
+  background-color: $background-color;
+  color: $text-color;
   height: 100vh;
   width: 100vw;
   display: flex;
@@ -34,11 +45,11 @@ html {
 }
 
 #name {
-  color: #aeaeae;
+  color: $text-color;
 }
 
 #role {
-  color: #593700;
+  color: $brown-color;
 }
 
 #inform-to-scroll-down {
@@ -57,7 +68,7 @@ html {
   display: flex;
   justify-content: space-between;
   height: 4rem;
-  background: #0f0f0f;
+  background: $background-color;
   z-index: 10;
 }
 
@@ -73,7 +84,7 @@ html {
   background: none;
   outline: none;
   border: none;
-  color: #aeaeae;
+  color: $text-color;
   padding: 10px;
   margin: 10px;
   font-size: 14px;
@@ -92,10 +103,8 @@ html {
 }
 
 #right-section a:hover {
-  color: #593700;
+  color: $brown-color;
   font-weight: bold;
-  /* transform: scale(1.05, 1.05); */
-  /* background: #1a1a1a; */
 }
 
 
@@ -118,18 +127,13 @@ html {
   margin: 0px;
   font-size: 0px;
   margin: 20px 0px 10px 0px;
-  /* display: flex; */
-  /* flex-direction: column;
-  justify-content: center;
-  align-items: center; */
 }
 
 #right-icons > div {
   padding: 10px 20px;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
-  box-shadow: inset 3px 3px 5px #0a0a0a,
-  inset -3px -3px 5px #141414;  
+  box-shadow: $box-shadow-inset;  
 }
 
 /* Experience and Skill Common Part */
@@ -145,7 +149,7 @@ html {
   padding-top: 5rem;
   color: #593700;
   font-weight: bold;
-  font-size: 23px;
+  font-size: 20px;
   text-align: left;
   width: 95vw;
   margin: auto;
@@ -168,7 +172,7 @@ html {
 } 
 
 .path {
-  background: #593700;
+  background: $brown-color;
   position: relative;
   display: flex;
   align-items: center;
@@ -177,17 +181,10 @@ html {
 
 .experience-content {
   margin: 20px;
-  color: #aeaeae;
-  background: #0f0f0f;
+  color: $text-color;
+  background: $background-color;
   border-radius: 10px;
   padding: 20px;
-  /* min-height: 100px; */
-  /* background: #0f0f0f;
-  box-shadow:  5px 5px 10px #0a0a0a,
-           -5px -5px 10px #141414;
-           background: #0f0f0f;
-box-shadow: inset 5px 5px 10px #0a0a0a,
-            inset -5px -5px 10px #141414 */
 }
 
 .duration {
@@ -196,7 +193,7 @@ box-shadow: inset 5px 5px 10px #0a0a0a,
   align-items: center;
   justify-content: left;
   padding: 10%;
-  color: #593700;
+  color: $brown-color;
   border-radius: 0px;
 
 }
@@ -209,7 +206,7 @@ box-shadow: inset 5px 5px 10px #0a0a0a,
   position: absolute;
   width: 25px;
   height: 25px;
-  background: #593700;
+  background: $brown-color;
   border-radius: 100%;
   display: flex;
   align-items: center;
@@ -218,13 +215,12 @@ box-shadow: inset 5px 5px 10px #0a0a0a,
 .inner-circle {
   width: 18px;
   height: 18px;
-  background: #161616;
+  background: $background-color;
   border-radius: 100%;
 }
 
 .company {
-  /* color: #0043ce; */
-  font-size: 20px;
+  font-size: 17px;
   padding: 10px
 }
 .duration-dates {
@@ -239,7 +235,7 @@ box-shadow: inset 5px 5px 10px #0a0a0a,
 }
 
 hr {
-  border-color: #aeaeae;
+  border-color: $text-color;
   opacity: 0.5;
   margin-top: 15px;
 }
@@ -251,7 +247,7 @@ hr {
 
 ul {
   list-style-type: circle;
-  font-size: 14px;
+  font-size: 13px;
   outline: none;
   padding: 10px 20px;
 }
@@ -275,14 +271,12 @@ ul li {
 .company-logo, .company-logo-in-experience {
   width: 60px;
   height: 60px;
-  background: #593700;
+  background: $brown-color;
   padding: 4px;
 }
 
 .company-logo-in-experience{
   mix-blend-mode: screen;
-  /* box-shadow: inset 5px 5px 10px #0a0a0a,
-  inset -5px -5px 10px #141414  */
 }
 
 .company-logo img {
@@ -321,27 +315,22 @@ ul li {
 .skill-container {
     width: 80px;
     height: 80px;
-    background: #161616;
+    background: $background-color;
     padding: 30px;
     border-radius: 10px;
-    color: #aeaeae !important;
+    color: $text-color !important;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* font-weight: bold; */
     font-size: 0.8rem;
     flex-direction: column;
     gap: 10px;  
-    background: #0f0f0f;
-    /* box-shadow:  5px 5px 10px #0a0a0a,
-             -5px -5px 10px #141414; */
-
-    box-shadow: inset 3px 3px 5px #0a0a0a,
-    inset -3px -3px 5px #141414;
+    background: $background-color;
+    box-shadow: $box-shadow-inset;
 }
 
 #skills {
-  background: #0f0f0f;
+  background: $background-color;
   padding-bottom: 30px;
 }
 
@@ -362,7 +351,7 @@ ul li {
 /* Start */
 
 #contact {
-  padding: 50px;
+  padding: 100px 0px 30px;
 }
 
 #contact-list {
@@ -382,7 +371,7 @@ ul li {
   display: flex;
   align-items: center;
   gap: 10px;
-  color: #aeaeae;
+  color: $text-color;
   text-decoration: none;
   font-size: 11px;
 }
@@ -418,11 +407,8 @@ ul li {
   align-items: center;
   padding: 20px;
   background: #0f0f0f;
-  box-shadow: inset 3px 3px 5px #0a0a0a,
-  inset -3px -3px 5px #141414;
-  /* box-shadow:  5px 5px 10px #0a0a0a,
-  -5px -5px 10px #141414; */
-  color: #aeaeae;
+  box-shadow: $box-shadow-inset;
+  color: $text-color;
   position: relative;
   text-align: center;
 }
@@ -438,7 +424,7 @@ ul li {
   right: 0px;
   padding: 20px 10px;
   font-size: 12px;
-  color: #593700;
+  color: $brown-color;
 }
 
 .certification .link, .certification .link img {
@@ -453,11 +439,8 @@ ul li {
   padding: 10px;
   margin: 10px;
   border-radius: 5px;
-  /* box-shadow: inset 2px 2px 3px #0a0a0a,
-        inset -2px -2px 3px #141414; */
-
-  box-shadow:  3px 3px 5px #0a0a0a,
-  -3px -3px 5px #141414;
+  box-shadow:  $box-shadow-out;
+  cursor: pointer;
 }
 
 /* End */
@@ -483,7 +466,7 @@ ul li {
 #footer {
   font-size: 12px;
   text-align: center;
-  color: #aeaeae;
+  color: $text-color;
 }
 
 #footer #text {
@@ -513,7 +496,7 @@ ul li {
   width: 95vw;
   margin: auto;
   padding-top: 30px;
-  color: #aeaeae;
+  color: $text-color;
   display: grid;
   grid-template-columns: 49% 49%;
   gap: 20px;
@@ -527,10 +510,7 @@ ul li {
   font-size: 11px;
   display: flex;
   line-height: 24px;
-  /* box-shadow:  5px 5px 10px #0a0a0a,
-  -5px -5px 10px #141414; */
-  box-shadow: inset 3px 3px 5px #0a0a0a,
-  inset -3px -3px 5px #141414;
+  box-shadow: $box-shadow-inset;
   flex-direction: column;
   margin: 0px 0px 0px;
 }
@@ -559,11 +539,8 @@ ul li {
 }
 
 .score {
-  /* box-shadow: inset 2px 2px 3px #0a0a0a,
-  inset -2px -2px 3px #141414; */
 
-  box-shadow:  3px 3px 5px #0a0a0a,
-  -3px -3px 5px #141414;
+  box-shadow: $box-shadow-out;
   padding: 5px 10px;
   margin: 10px 0px;
   border-radius: 5px;
@@ -639,9 +616,8 @@ ul li {
   }
 
   .experience-content {
-    background: #0f0f0f;
-    box-shadow: inset 3px 3px 5px #0a0a0a,
-    inset -3px -3px 5px #141414;
+    background: $background-color;
+    box-shadow: $box-shadow-inset;
     margin: 0px 0px 20px 0px;
   }
 
@@ -662,16 +638,3 @@ ul li {
   }
 
 }
-
-/* <div id="hello" style="
-    position: absolute;
-    width: 300px;
-    height: 300px;
-    top: 20rem;
-    right: 500px;
-    background: red;
-    border-radius: 0px;
-    background: #0f0f0f;
-    box-shadow: inset 5px 5px 10px #0a0a0a,
-            inset -5px -5px 10px #141414;
-"></div> */

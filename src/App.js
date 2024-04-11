@@ -1,4 +1,4 @@
-import './App.css';
+import './App.scss';
 import IntroPage from './Components/IntroPage';
 import Header from './Components/Header';
 import Experience from './Components/Experience';
