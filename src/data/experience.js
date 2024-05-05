@@ -11,10 +11,11 @@ const experience = [
                 projectName: "Common Costing Tool",
                 listData: [
                             "Developed web application which is responsible for providing pricing for hardware and software services provided by IBM depending on different regions.",
-                            "Worked as Frontend developer using ReactJs.",
+                            "Worked as Full Stack developer using ReactJs and Java Spring Boot",
                             "Created functional components and used advanced hooks through out the application.",
                             "Migrated Data grid from carbon to Aggrid",
-                            "Took leadership for eslint and unit testing coverage for UI"
+                            "Took leadership for eslint and unit testing coverage for UI",
+                            "Created Mail service in Java."
                         ]
             },
             {

@@ -9,7 +9,7 @@ import Kubernetes from "../assets/kubernetes.svg"
 import MySQL from "../assets/mysql.svg"
 import MongoDB from "../assets/mongodb.svg"
 import TravisCI from "../assets/travisci.svg"
-
+import Spring from "../assets/spring.svg"
 
 const skills = [
     {
@@ -19,6 +19,10 @@ const skills = [
     {
         skill: "Java",
         logo: Java,
+    },
+    {
+        skill: 'Spring Boot',
+        logo: Spring,
     },
     {
         skill: "JavaScript",
