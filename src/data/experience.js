@@ -1,12 +1,28 @@
 import IBM from "../assets/IBM.svg"
+import Samsung from "../assets/samsung.svg"
 
 const experience = [
+    {
+        companyLogo: Samsung,
+        projectList: [
+            {
+                company: "Samsung Research - Banglore",
+                startDate: "July 2024",
+                endDate: "Present",
+                role: "Lead Engineer",
+                projectName: "Samsung Ads - DSP",
+                listData: [
+                            "Building Strong Profile...."
+                        ]
+            }
+        ]
+    },
     {
         projectList: [
             {
                 company: "IBM - CIO",
                 startDate: "Nov 2022",
-                endDate: "Present",
+                endDate: "July 2024",
                 role: "Full Stack Developer",
                 projectName: "Common Costing Tool",
                 listData: [

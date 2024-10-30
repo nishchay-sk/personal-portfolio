@@ -23,7 +23,6 @@ html {
   background-color: $background-color;
   color: $text-color;
   height: 100vh;
-  width: 100vw;
   display: flex;
   align-items: left;
   justify-content: center;
@@ -140,7 +139,6 @@ html {
 /* Start */
 
 #experience {
-  width: 100vw;
   min-height: 100vh;
   padding-bottom: 30px;
 }
